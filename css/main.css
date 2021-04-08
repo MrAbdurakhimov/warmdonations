@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.counter {
+  font-size: 32px;
+}
