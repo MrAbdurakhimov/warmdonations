@@ -6,7 +6,6 @@ counter.forEach((counter) => {
     const target = counter.getAttribute("data-target");
     const count = +counter.innerText;
     const inc = target / speed;
-    inc = Math.float(inc);
     if (count < target) {
       counter.innerText = count + inc;
       setTimeout(updateCount, 10);
