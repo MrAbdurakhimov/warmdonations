@@ -10,7 +10,7 @@ counter.forEach((counter) => {
       counter.innerText = count + inc;
       setTimeout(updateCount, 10);
     } else {
-      counter.innerText = target;
+      counter.innerText = Math.float(target);
     }
   };
   updateCount();
