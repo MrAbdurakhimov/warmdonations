@@ -1,2 +1,0 @@
-﻿# Warmdonations
- Very simple app
