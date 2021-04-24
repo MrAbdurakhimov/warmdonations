@@ -25,11 +25,11 @@ body {
 @keyframes loader {
   0% {
     opacity: 0.5;
-    transform: scale(1);
+    transform: scale(0.9);
   }
   100% {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.0);
   }
 }
 .custom-card {
