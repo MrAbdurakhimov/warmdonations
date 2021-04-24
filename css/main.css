@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #e8f0ff;
+  max-width: 520px;
+  margin: auto;
+  padding: 24px 0px;
+}
+.logo {
+  margin-bottom: 24px;
+}
+#loader {
+  transition: 0.3s all;
+  animation-name: loader;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes loader {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+.custom-card {
+  background: #ffffff;
+  /* shadow */
+  box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 24px;
+  font-size: 32px;
+}
+.custom-btn {
+  transition: 0.3s all;
+  background: linear-gradient(270deg, #8743ff 0%, #4136f1 100%);
+  box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 24px 0px;
+  color: #ffffff;
+  font-size: 20px;
+  outline: none;
+  font-weight: 600;
+}
+
+.custom-btn:hover {
+  transition: 0.3s all;
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.32);
+}
+.post-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  /* or 150% */
+
+  color: #000000;
+}
+.countfect {
+  font-size: 24px;
+}
+footer {
+  padding: 24px;
+  padding-bottom: 0;
+  text-align: center;
+}
