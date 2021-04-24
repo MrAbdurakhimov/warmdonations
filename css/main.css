@@ -2,6 +2,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+#app {
+  display: none;
+}
 body {
   background: #e8f0ff;
   max-width: 520px;
