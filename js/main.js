@@ -1,6 +1,6 @@
 $(window).ready(function () {
   setInterval(() => {
-    $("#loader").fadeOut(1000);
+    $("#loader").hide();
     $("#app").fadeIn();
   }, 3000);
 
